@@ -1,8 +1,6 @@
-import java.util.Scanner;
-
 public class metod {
     public static void main(String[] args) {
-          yazSalam();
+        //  yazSalam();
         //   yazAd("Anar");
         //   cemEt(5,5);
         //   cemEt(5,7);
@@ -12,14 +10,13 @@ public class metod {
         //   yoxlaCutTek (10);
         //   enBoyuk(5,9,15);
         //   faktorial(5);
-    }
 
 
     // 1. Tapşırıq:Metodun adı `yazSalam` olsun. Heç bir parametr almasın. Sadəcə ekrana belə yazsın:
     // Salam, Java!
-  public static void yazSalam() {
+ /* public static void yazSalam() {
         System.out.println("Salam, Java!");
-    }
+    } */
 
     //  2. Tapşırıq:Metodun adı `yazAd` olsun və `String ad` parametrini alsın. Məsələn:
     //  yazAd("Anar");Çıxış: Sənin adın: Anar
@@ -99,4 +96,38 @@ public class metod {
         return hasil;
 
     }} */
-}
+
+
+  /*  Overloading sahe = new Overloading();
+            int kvadratinSahesi = sahe.area(6);
+            {
+            System.out.println("Kvadratın sahəsi: " + kvadratinSahesi);
+            int duzbucaqlininSahesi = sahe.area(6, 7);
+            {
+                System.out.println("Düzbucaqlının sahəsi: " + duzbucaqlininSahesi);
+            }
+            double daireninSahesi = sahe.area(9.5);
+            {
+                System.out.println("Dairənin sahəsi: " + daireninSahesi);
+            }
+        } */
+
+
+     /*   Overloading mesaj = new Overloading();
+        mesaj.sendMessage("Salam! ");
+        mesaj.sendMessage("Hello", 4); */
+
+
+
+     /*   Overloading cevirici = new Overloading();
+
+        double metr = cevirici.convert(300);
+        System.out.println("300 sm = " + metr + " m");
+
+        double qram = cevirici.convert(1.5);
+        System.out.println("1.5 kg = " + qram + " q");
+
+        float temperatur = cevirici.convert("37.8");
+        System.out.println("Temperatur: " + temperatur + " °C"); */
+
+}}
